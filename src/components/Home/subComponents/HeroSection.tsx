@@ -1,9 +1,8 @@
 // Dependencies
-import { RiCustomerServiceFill } from "react-icons/ri";
-import { HiMiniBuildingOffice2 } from "react-icons/hi2";
 import { FaArrowCircleRight } from "react-icons/fa";
-import { TbCoins } from "react-icons/tb";
 import { Button } from "@nextui-org/react";
+import { GiProgression } from "react-icons/gi";
+import { IoIosInformationCircle } from "react-icons/io";
 
 // Local Files
 import "./HeroSection.css";
@@ -11,36 +10,33 @@ import "./HeroSection.css";
 const HeroSection = () => {
   return (
     <div className="HeroSection flex flex-col justify-center items-center">
-      <div className="flex flex-col justify-center items-center gap-[3rem] w-[100%] px-[3rem] py-[2rem] bg-[rgba(0,0,0,0.5)]">
-        <div className="flex flex-col items-center text-center text-[3rem] lg:text-[3.5rem] font-['Salsa'] font-bold leading-[3.4rem] lg:leading-[4rem]">
-          <span className="text-[white]">
-            Invest with <span className="text-[#F5A524]">Confidence</span>
-          </span>
+      <div className="flex flex-col justify-center items-center gap-[1rem] w-[100%] px-[3rem] py-[2rem]">
+        <GiProgression className="text-white text-[5rem] txtShadow" />
+        <p className="txtShadow text-[white] text-2xl font-semibold">InvestNow Retirement</p>
 
+        <div className="flex flex-col items-center text-center text-[3rem] lg:text-[3.5rem] font-['Roboto'] font-bold leading-[3.4rem] lg:leading-[4rem] txtShadow">
           <span className="text-[white]">
-            & <span className="text-[#F5A524]">Secure</span> Your Future.
+            Unlock unmatched <span className="text-[#F5A524]">IRA benefits</span> with
+          </span>
+          <span className="text-[white]">
+            <span className="text-[#F5A524]">Robinhood Gold</span> in seconds!
           </span>
         </div>
 
-        <div className="flex gap-[2rem]">
-          <div className="text-white flex flex-col items-center">
-            <RiCustomerServiceFill className="text-[3rem]" />
-            <p className="text-center max-w-[6rem]">25 million+ clients</p>
-          </div>
-          <div className="text-white flex flex-col items-center">
-            <HiMiniBuildingOffice2 className="text-[3rem]" />
-            <p className="text-center max-w-[5rem]">400+ branches</p>
-          </div>
-          <div className="text-white flex flex-col items-center">
-            <TbCoins className="text-[3rem]" />
-            <p className="text-center max-w-[5rem]">$7.6 trillion in assets</p>
-          </div>
-        </div>
+        <p className="text-white font-semibold italic txtShadow max-w-[55rem] text-center">
+          Maximize your investment potential! Unlock an additional 3%* bonus on each dollar you invest in your IRA with
+          our exclusive subscription offer. Enjoy the same benefits for IRA transfers and 401(k) rollovers until April
+          30.
+        </p>
+
+        <p className="text-default-200 flex txtShadow gap-[0.5rem]">
+          <IoIosInformationCircle className="mt-[0.3rem]"/> Limitations and terms apply
+        </p>
 
         <Button
           color="warning"
-          variant="ghost"
-          radius="full"
+          variant="shadow"
+          radius="none"
           endContent={<FaArrowCircleRight className="mt-[0.2rem]" />}
         >
           Learn More

@@ -11,7 +11,7 @@ type QuestionAccordionProps = {
 };
 
 const QuestionAccordion = (props: QuestionAccordionProps) => {
-  const className = "font-['Jost'] " + props.className;
+  const className = "font-['Roboto'] " + props.className;
 
   return (
     <Accordion className={className} isCompact variant={props.varient}>

@@ -14,16 +14,24 @@
 }
 
 .nav {
-  font-family: "Jost";
+  font-family: "Roboto";
 }
 
-.navActive::after {
+.hbar{
+  background-color: #f5a524;
+  filter: drop-shadow(0 0 0.05rem #f5a524);
+  height: 5rem;
+  width: 0.1rem;
+  margin-left: 0.5rem;
+}
+
+.NavDiv::after{
   content: "";
-  height: 0.25rem;
+  height: 0.1rem;
   border-radius: 1rem;
   background-color: #f5a524;
-  transform: translateY(1.75rem);
   filter: drop-shadow(0 -0.3rem 0.4rem #f5a524);
+  display: block;
 }
 
 .navActiveServices::after {

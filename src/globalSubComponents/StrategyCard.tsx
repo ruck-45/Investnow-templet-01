@@ -20,7 +20,7 @@ const StrategyCard = (props: StrategyCardProps) => {
   return (
     <div className={className}>
       <div>
-        <h1 className="font-['Unna'] text-[2rem] md:text-[4rem]">{props.heading}</h1>
+        <h1 className="font-[Roboto] text-[2rem] md:text-[4rem]">{props.heading}</h1>
         <p className="md:text-[1.5rem]">{props.caption}</p>
       </div>
       <Image width={600} alt="thumbnail" src={props.thumbnail} isBlurred />

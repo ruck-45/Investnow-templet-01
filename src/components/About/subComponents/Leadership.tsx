@@ -20,11 +20,10 @@ const Leaders = [
   },
 ];
 
-
 const Leadership = () => {
   return (
     <div className="flex justify-center items-center bg-[#e9ecef] lg:px-[6rem] gap-[4rem] lg:gap-[6rem] xl:px-[8rem] xl:gap-[8rem] flex-col lg:flex-row px-[3rem] py-[5rem] lg:p-0 ">
-      <h1 className="lg:py-[5rem] font-['Salsa'] text-[3rem] lg:text-[4rem] lg:max-w-[25rem] leading-[4rem] text-center">
+      <h1 className="lg:py-[5rem] font-['Roboto'] text-[3rem] lg:text-[4rem] lg:max-w-[25rem] leading-[4rem] text-center">
         Meet Our <span className="text-[#F5A524]">Leadership</span>
       </h1>
       <div className="grow flex lg:py-[5rem] xl:py-0 gap-[3rem] xl:gap-[5rem] flex-col xl:flex-row">

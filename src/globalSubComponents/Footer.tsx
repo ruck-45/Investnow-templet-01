@@ -52,7 +52,7 @@ const footerLinks = [
 
 const Footer = () => {
   return (
-    <div className="flex flex-col justify-center items-center py-[5rem] bg-[rgba(0,0,0,0.5)] gap-[2rem] text-white footer">
+    <div className="flex flex-col justify-center items-center py-[5rem] bg-[#052814] gap-[2rem] text-white footer">
       <div className="flex gap-[4rem] upperFooter">
         <div className="max-w-[20rem] flex flex-col gap-[2rem] companySection">
           <Image width={170} src={logo} alt="logo" radius="none" />
@@ -76,7 +76,7 @@ const Footer = () => {
                 <Button isIconOnly variant="solid" radius="full" className="w-[3rem] h-[3rem] text-[1.5rem]">
                   {data.icon}
                 </Button>
-                <div className="font-['Jost']">
+                <div className="font-['Roboto']">
                   <h1 className="text-[#F5A524] font-bold text-[1.2rem]">{data.name}</h1>
                   <p className="text-sm">{data.value}</p>
                 </div>
@@ -92,7 +92,7 @@ const Footer = () => {
           <div className="flex justify-between w-full footerLinks">
             {footerLinks.map((ele, index) => (
               <div className="flex flex-col gap-[1rem]">
-                <p className="font-['Jost'] text-[#F5A524] font-bold text-[1.1rem]">{ele.type}</p>
+                <p className="font-['Roboto'] text-[#F5A524] font-bold text-[1.1rem]">{ele.type}</p>
                 <Listbox items={ele.data} aria-label="navigation" className="dark" variant="light">
                   {(item) => (
                     <ListboxItem key={item.key}>
@@ -104,7 +104,7 @@ const Footer = () => {
             ))}
 
             <div className="flex flex-col gap-[1rem] max-w-[13rem]">
-              <p className="font-['Jost'] text-[#F5A524] font-bold text-[1.1rem]">Work Hours</p>
+              <p className="font-['Roboto'] text-[#F5A524] font-bold text-[1.1rem]">Work Hours</p>
               <p className="text-justify">
                 Trade and invest anytime, anywhere. Our platform is available 24/7 for seamless access to opportunities
                 and trading services.
