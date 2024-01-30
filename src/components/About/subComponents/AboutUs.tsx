@@ -4,8 +4,8 @@ import who from "../assets/RHwhoweare.jpg";
 
 const AboutUs = () => {
   return (
-    <div className="bg-[#e9ecef] flex flex-col">
-      <div className="bg-[#e9ecef] flex flex-col items-center lg:flex-row justify-evenly px-[3rem] md:px-[5rem] lg:px-[8rem] py-[5rem] gap-[3rem]">
+    <div className=" flex flex-col">
+      <div className=" flex flex-col items-center lg:flex-row justify-evenly px-[3rem] md:px-[5rem] lg:px-[8rem] py-[5rem] gap-[3rem]">
         <div className="flex flex-col gap-[1rem]">
           <h1 className="font-['DM_Serif_Display'] text-[2.5rem] font-semibold">Who We Are ?</h1>
           <p className="italic text-md text-default-800">“Innovators in the Digital World”</p>

@@ -1,5 +1,5 @@
 type IntroProps = {
-  thumbnail: string;
+  thumbnail?: string;
   normalHead?: string;
   redHead?: string;
   caption: string;

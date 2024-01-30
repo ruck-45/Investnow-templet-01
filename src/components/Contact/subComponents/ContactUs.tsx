@@ -2,42 +2,22 @@
 import { Input, Button } from "@nextui-org/react";
 
 // Local Files
-// import "./Contact.css";
+import "./Contact.css";
 
 
 const ContactUs = () => {
   return (
-    <div className="ContactUs grid grid-cols-1 lg:grid-cols-2 py-[6rem] px-[2rem] items-center">
+    <div className="contactBg grid grid-cols-1 lg:grid-cols-2 py-[6rem] px-[2rem] items-center">
       <div className="flex flex-col items-center">
         <h1 className="py-[1rem] font-['rubik_doodle_shadow']  text-white font-bold text-5xl md:text-7xl">
           Contact Us
         </h1>
         <form className="w-full md:w-[30rem] py-[2rem] px-[1rem] flex flex-col gap-[1rem]">
-          <Input type="email" label="Email" name="user_email" />
-          <Input type="text" label="Full Name" name="user_name" />
-          <Input type="text" label="Company Name" name="user_company_name" />
-          <Input type="tel" label="Phone Number" name="user_number" />
-          <Input
-            type="number"
-            label="Monthly Budget ( INR / USD )"
-            name="user_budget"
-            endContent={
-              <div className="flex items-center translate-y-[-0.5rem]">
-                <label className="sr-only" htmlFor="currency">
-                  Currency
-                </label>
-                <select
-                  className="outline-none border-0 bg-transparent text-default-400 text-small"
-                  id="currency"
-                  name="user_currency"
-                >
-                  <option value="INR">INR</option>
-                  <option value="USD">USD</option>
-                </select>
-              </div>
-            }
-          />
-          <Button size="lg" className="" variant="bordered" color="warning" radius="none">
+          <Input type="email" label="Email" name="user_email" radius="none" />
+          <Input type="text" label="Full Name" name="user_name" radius="none" />
+          <Input type="text" label="Company Name" name="user_company_name" radius="none" />
+          <Input type="tel" label="Phone Number" name="user_number" radius="none" />
+          <Button size="lg" className="" variant="bordered" color="success" radius="none">
             <span>Send Message</span>
           </Button>
         </form>

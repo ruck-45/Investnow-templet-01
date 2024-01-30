@@ -10,6 +10,7 @@ import Intro from "../../globalSubComponents/Intro";
 import aboutImg from "./assets/RHAboutUs.jpg" 
 import Leadership from "./subComponents/Leadership";
 import AboutUs from "./subComponents/AboutUs";
+import Values from "./subComponents/Values";
 const About = () => {
   const dispatch = useDispatch();
   dispatch(updateTab("About"));
@@ -24,13 +25,14 @@ const About = () => {
       <Intro
         normalHead="About "
         redHead="US"
-        thumbnail={aboutImg}
+        // thumbnail={aboutImg}
         caption="Your trusted partner in trading and investment. We streamline the complexities of financial markets with personalized solutions and expert guidance. Whether you're a newcomer or an experienced investor, we're dedicated to supporting and enhancing your financial journey."
       />
-      <AboutUs />
-      <Specialization />
       <Leadership />
-      <Mission />
+      <Values />
+      {/* <AboutUs /> */}
+      <Specialization />
+      {/* <Mission /> */}
       <FrequentQuestion />
     </div>
   );

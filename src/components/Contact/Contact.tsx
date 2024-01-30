@@ -27,7 +27,6 @@ const Contact = () => {
         thumbnail={contactImg}
       />
       <ContactUs />
-      <ContactInfo />
       <Contactmap />
       <FrequentQuestion />
     </div>

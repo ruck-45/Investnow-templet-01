@@ -11,13 +11,7 @@ const Leaders = [
     designation: "Co-Founder & Managing Director",
     bio: "Michael Anderson, co-founder and MD of InvestNow, is a visionary leader with a rich background in financial innovation. With over a decade of experience in investment strategy, he has led transformative initiatives for investors worldwide. Michael's strategic foresight and dedication to financial excellence define InvestNow. His achievements include steering the company to industry recognition and a 25% growth in client portfolios within the first year.",
     thumbnail: John,
-  },
-  {
-    name: "Sophia Williams",
-    designation: "Co-Founder & CEO",
-    bio: "Sophia Williams, Co-founder, and CEO of InvestNow, is a visionary leader with a strong background in financial technology. With a degree in Finance and successful ventures in the fintech sector, Sophia utilized her expertise to establish InvestNow. Under her leadership, the company has earned acclaim for innovative investment platforms, personalized financial strategies, and fostering financial growth for clients across diverse backgrounds.",
-    thumbnail: Emilie,
-  },
+  }
 ];
 
 const Leadership = () => {
