@@ -1,18 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.eaf29372.css",
-    "main.js": "/static/js/main.541f22eb.js",
+    "main.css": "/static/css/main.d5d15407.css",
+    "main.js": "/static/js/main.38171a00.js",
+    "static/media/RHoption.jpg": "/static/media/RHoption.45822858e195594bd29e.jpg",
+    "static/media/RHcrypto.jpg": "/static/media/RHcrypto.fe8370c8c9f6b7adce0a.jpg",
+    "static/media/greenBg.jpg": "/static/media/greenBg.793247e27d1016b90d6f.jpg",
+    "static/media/RHinvestement.jpg": "/static/media/RHinvestement.d9322d35b1bf43ccf5c4.jpg",
+    "static/media/RHfaq.jpg": "/static/media/RHfaq.ed455c2f90c10c55ecc4.jpg",
+    "static/media/trading.jpg": "/static/media/trading.32e1418476f81268ce6d.jpg",
+    "static/media/RHcontactus.jpg": "/static/media/RHcontactus.4f1a186b97c542893759.jpg",
+    "static/media/RhCoFounder.jpg": "/static/media/RhCoFounder.b7aa0dc9cc00abcce351.jpg",
+    "static/media/RHretirement.jpg": "/static/media/RHretirement.ed769bc0d78b523f936a.jpg",
+    "static/media/safety.png": "/static/media/safety.1929d58c80f60e47a00d.png",
+    "static/media/logoDark.svg": "/static/media/logoDark.3943e34aaee1b4c085e8f35c29850eed.svg",
     "static/media/logo.svg": "/static/media/logo.504213ee672d5786e66633fd3b11266b.svg",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.eaf29372.css.map": "/static/css/main.eaf29372.css.map",
-    "main.541f22eb.js.map": "/static/js/main.541f22eb.js.map"
+    "main.d5d15407.css.map": "/static/css/main.d5d15407.css.map",
+    "main.38171a00.js.map": "/static/js/main.38171a00.js.map"
   },
   "entrypoints": [
-    "static/css/main.eaf29372.css",
-    "static/js/main.541f22eb.js"
+    "static/css/main.d5d15407.css",
+    "static/js/main.38171a00.js"
   ]
 }
