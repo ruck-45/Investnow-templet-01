@@ -15,6 +15,7 @@ import Options from "./components/Options/Options";
 import Retirement from "./components/Retirement/Retirement";
 import Footer from "./globalSubComponents/Footer";
 import { RootState } from "./store/store";
+import Privacy from "./components/Privacy/Privacy";
 
 function App() {
   const curTab = useSelector((state: RootState) => state.curTab.value);
@@ -26,6 +27,7 @@ function App() {
         <Route path="/" element={<Navigate to="/Home" />} />
         <Route path="/Home" element={<Home />} />
         <Route path="/About" element={<About />} />
+        <Route path="/Privacy" element={<Privacy />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/FAQ" element={<FAQ />} />
         <Route path="/Auth" element={<Auth />} />

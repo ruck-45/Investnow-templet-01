@@ -37,6 +37,7 @@ const footerLinks = [
       { key: "about", value: "About" },
       { key: "contact", value: "Contact" },
       { key: "faq", value: "FAQ" },
+      { key: "Privacy", value: "Privacy" },
     ],
   },
   {
@@ -46,6 +47,7 @@ const footerLinks = [
       { key: "crypto", value: "Crypto" },
       { key: "options", value: "Options" },
       { key: "retirement", value: "Retirement" },
+      
     ],
   },
 ];

@@ -38,9 +38,9 @@ const servicesData = [
 
 export const VerticalCards= () => {
   return (
-    <div className="bg-white md:h-[50rem] h-auto w-full mt-[2rem]">
-      <div className="bg-white h-full text-black rounded-sm px-[10rem]">
-        <div className="md:grid md:grid-cols-2  flex flex-col  items-center  md:px-[8rem] gap-6">
+    <div className="bg-white md:h-[50rem] h-auto w-full mt-[2rem] flex flex-col items-center">
+      <div className="bg-white h-full text-black  rounded-sm ">
+        <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-6">
           {servicesData.map((service, index) => (
             <Verticalprops key={index} photo={service.photo} title={service.title} des={service.description} />
           ))}

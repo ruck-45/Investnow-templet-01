@@ -30,12 +30,12 @@ const progressData3 = {
 const progressData4 = {
   label: "Exemplary performance with each transaction",
   description: "Explore the metrics and benchmarks driving our commitment to achieving excellence with every order.",
-  pic: "https://img.freepik.com/free-vector/search-engine-marketing-business-copywriting-service-content-management_335657-3148.jpg?size=626&ext=jpg",
+  pic: "https://img.freepik.com/free-vector/financial-benefit-businessman-cartoon-character-with-big-briefcase-earning-money-getting-revenue-profit-income-earnings-capital-gain-process-vector-isolated-concept-metaphor-illustration_335657-2797.jpg?size=626&ext=jpg",
 };
 
 const Specialization = () => {
   return (
-    <div className="h-auto flex flex-col items-center justify-between mt-[4rem] p-[3rem]">
+    <div className="h-auto flex flex-col items-center justify-between mt-[4rem] gap-4 sm:p-[7rem] lg:p-[3rem]">
       <Cards title={progressData1.label} des={progressData1.description} photo={progressData1.pic} />
       <RevCards title={progressData2.label} des={progressData2.description} photo={progressData2.pic} />
       <Cards title={progressData3.label} des={progressData4.description} photo={progressData3.pic} />
