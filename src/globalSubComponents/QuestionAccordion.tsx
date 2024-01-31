@@ -20,9 +20,9 @@ const QuestionAccordion = (props: QuestionAccordionProps) => {
           key={index}
           aria-label={`Question ${index + 1}`}
           title={queries.question}
-          className="py-[1rem] text-default-500 text-sm"
+          className="py-[1rem] text-default-500 text-sm rounded-none"
         >
-          <div className="flex flex-col gap-[2rem]">
+          <div className="flex flex-col gap-[2rem] rounded-none">
             {queries.answer.map((ans, index) => {
               if (ans.bullet) {
                 return (
