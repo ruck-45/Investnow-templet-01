@@ -7,10 +7,12 @@ import Mission from "../../globalSubComponents/Mission";
 import Specialization from "./subComponents/Specialization";
 import FrequentQuestion from "../../globalSubComponents/FrequentQuestion";
 import Intro from "../../globalSubComponents/Intro";
-import aboutImg from "./assets/RHAboutUs.jpg" 
+import aboutImg from "./assets/RHAboutUs.jpg";
 import Leadership from "./subComponents/Leadership";
 import AboutUs from "./subComponents/AboutUs";
 import Values from "./subComponents/Values";
+import Hero from "./subComponents/Hero";
+import { VerticalCards } from "./helpers/VerticalCards";
 const About = () => {
   const dispatch = useDispatch();
   dispatch(updateTab("About"));
@@ -22,15 +24,10 @@ const About = () => {
 
   return (
     <div>
-      <Intro
-        normalHead="About "
-        redHead="US"
-        // thumbnail={aboutImg}
-        caption="Your trusted partner in trading and investment. We streamline the complexities of financial markets with personalized solutions and expert guidance. Whether you're a newcomer or an experienced investor, we're dedicated to supporting and enhancing your financial journey."
-      />
+      <Hero />
       <Leadership />
-      <Values />
-      {/* <AboutUs /> */}
+      {/* <Values /> */}
+      <VerticalCards/>
       <Specialization />
       {/* <Mission /> */}
       <FrequentQuestion />

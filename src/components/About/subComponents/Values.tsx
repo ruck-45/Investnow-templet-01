@@ -10,8 +10,8 @@ const Values = () => {
       <div className="grid grid-cols-2 gap-3">
         <Card className="w-[400px] bg-blue-300">
           <CardHeader className="flex gap-3">
-            <div className="flex flex-col">
-              <p className="text-md font-bold">Safety First</p>
+            <div className="flex flex-col items-center justify-between">
+              <h1 className="text-md font-bold">Safety First</h1>
               <p className="text-small text-default-500">Robinhood is a safety-first company</p>
             </div>
           </CardHeader>

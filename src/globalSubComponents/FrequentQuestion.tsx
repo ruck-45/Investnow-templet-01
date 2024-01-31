@@ -4,13 +4,12 @@ import { FaArrowCircleRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 // Local Files
-import "./FrequentQuestion.css";
 import questions from "../components/Contact/assets/frequetQuestions.json";
 import QuestionAccordion from "./QuestionAccordion";
 
 const FrequentQuestion = () => {
   return (
-    <div className="flex flex-col md:flex-row fqBg px-[1rem] md:px-[2rem] lg:px-[3rem] py-[5rem] gap-[2rem] md:gap-[0rem]">
+    <div className="flex flex-col md:flex-row bg-gray-200 px-[1rem] md:px-[2rem] lg:px-[3rem] py-[5rem] gap-[2rem] md:gap-[0rem] rounded-none">
       <div className="md:w-[50%] flex flex-col gap-[1rem] px-[1rem]">
         <h1 className="font-[Roboto] text-[2rem]">Frequently Asked Questions</h1>
         <p>
@@ -31,7 +30,7 @@ const FrequentQuestion = () => {
             color="warning"
             radius="full"
             endContent={<FaArrowCircleRight className="mt-[0.1rem]" />}
-            className="max-w-[8rem] mt-[1rem]"
+            className="max-w-[8rem] mt-[1rem] rounded-none"
           >
             Learn More
           </Button>
@@ -39,7 +38,7 @@ const FrequentQuestion = () => {
       </div>
 
       <div className="md:w-[50%] md:ps-[2rem]">
-        <QuestionAccordion className="dark" questions={questions} varient="splitted" />
+        <QuestionAccordion className="dark rounded-none" questions={questions} varient="splitted" />
       </div>
     </div>
   );

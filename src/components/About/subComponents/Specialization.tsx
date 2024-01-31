@@ -4,74 +4,42 @@ import { FaArrowCircleRight } from "react-icons/fa";
 
 // Local Files
 import leadership from "../assets/leadership.jpg";
+import { Cards } from "../helpers/Cards";
+import RevCards from "../helpers/RevCards";
 
-const progressData = [
-  {
-    label: "Growth",
-    value: 85,
-  },
-  {
-    label: "Business Guidance",
-    value: 97,
-  },
-  {
-    label: "Industry Building",
-    value: 90,
-  },
-];
+const progressData1 = {
+  label: "A more human way to learn",
+  description:
+    "We're reshaping the way finance is learned—offering educational resources designed for the contemporary learner.",
+  pic: "https://img.freepik.com/free-vector/www-concept-illustration_114360-2143.jpg?size=626&ext=jpg",
+};
+const progressData2 = {
+  label: "Easily understandable updates on financial matters",
+  description:
+    "Revolutionizing market discussions for today's investors. Sherwood Snacks brings you cutting-edge investing news tailored for the modern era.",
+  pic: "https://img.freepik.com/free-vector/financial-benefit-businessman-cartoon-character-with-big-briefcase-earning-money-getting-revenue-profit-income-earnings-capital-gain-process-vector-isolated-concept-metaphor-illustration_335657-2797.jpg?size=626&ext=jpg",
+};
+
+const progressData3 = {
+  label: "Explore the inner workings and understand the process",
+  description:
+    "We uphold the belief that transparency is a right for everyone. Discover how our business operates by revealing the true cost of each trade.",
+
+  pic: "https://img.freepik.com/free-vector/indian-rupee-investment-concept_23-2148008184.jpg?w=740&t=st=1706620725~exp=1706621325~hmac=fcfdc376fd189dbe9095a336efb5b8ddac3416f40b5851bca21c7acf3453f3d4",
+};
+const progressData4 = {
+  label: "Exemplary performance with each transaction",
+  description: "Explore the metrics and benchmarks driving our commitment to achieving excellence with every order.",
+  pic: "https://img.freepik.com/free-vector/search-engine-marketing-business-copywriting-service-content-management_335657-3148.jpg?size=626&ext=jpg",
+};
 
 const Specialization = () => {
   return (
-    // <div className="bg-[#052814] flex items-center justify-between text-white px-[1rem] lg:px-[5rem] py-[5rem] gap-[3rem]">
-    //   <div className="flex items-center w-full lg:w-[50%]">
-    //     <div className="w-full flex flex-col items-center lg:items-start gap-[3rem] ms-[3rem] lg:ms-[0]">
-    //       <div>
-    //         <h1 className="font-['Roboto'] font-bold text-[2rem] lg:text-[3rem] leading-[2rem] lg:leading-[3.7rem] text-center lg:text-left">
-    //           Getting the Best Terms
-    //         </h1>
-    //         <h1 className="font-['Roboto'] font-bold text-[2rem] lg:text-[3rem] leading-[2rem] lg:leading-[3.7rem] text-center lg:text-left">
-    //           On Your Investment
-    //         </h1>
-    //       </div>
-    //       <p>We specialize in securing optimal terms for your investment ventures.</p>
-
-    //       <div className="w-full flex flex-col gap-[1rem] items-center lg:items-start">
-    //         {progressData.map((data, indx) => (
-    //           <Progress
-    //             label={data.label}
-    //             size="sm"
-    //             value={data.value}
-    //             color="success"
-    //             showValueLabel={true}
-    //             className="max-w-md italic"
-    //           />
-    //         ))}
-    //       </div>
-
-    //       <Button
-    //         variant="shadow"
-    //         color="warning"
-    //         radius="full"
-    //         endContent={<FaArrowCircleRight className="mt-[0.2rem]" />}
-    //       >
-    //         Learn More
-    //       </Button>
-    //     </div>
-    //   </div>
-    //   <Image
-    //     isBlurred
-    //     src={leadership}
-    //     alt="Help"
-    //     width={500}
-    //     radius="none"
-    //     className="border-[1rem] hidden lg:block rotate-3 hover:rotate-1"
-    //   />
-    // </div>
-    <div className="flex flex-col">
-      <div className="mx-[18%] p-[2rem] text-2xl font-bold">
-        We believe the financial system should be built to work for everyone. That’s why we create products that let you
-        start investing at your own pace, on your own terms.
-      </div>
+    <div className="h-auto flex flex-col items-center justify-between mt-[4rem] p-[3rem]">
+      <Cards title={progressData1.label} des={progressData1.description} photo={progressData1.pic} />
+      <RevCards title={progressData2.label} des={progressData2.description} photo={progressData2.pic} />
+      <Cards title={progressData3.label} des={progressData4.description} photo={progressData3.pic} />
+      <RevCards title={progressData4.label} des={progressData4.description} photo={progressData4.pic} />
     </div>
   );
 };
