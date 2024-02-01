@@ -5,7 +5,7 @@ import { Avatar } from "@nextui-org/react";
 import Emilie from "../assets/RHceo.jpg";
 import John from "../assets/RhCoFounder.jpg";
 
-const Leaders = 
+
 const Leaders = 
   {
     name: "Michael Anderson",
@@ -33,12 +33,7 @@ const Leadership = () => {
           <p className="font-serif text-center text-1xl text-gray-500">{Leaders.bio}</p>
         </div>
       </div>
-      {/* <div className="p-[3rem]">
-        <p className="font-serif text-center text-1xl text-gray-500">{Leaders.bio}</p>
-      </div> */}
-      {/* <div className="p-[3rem]">
-        <p className="font-serif text-center text-1xl text-gray-500">{Leaders.bio}</p>
-      </div> */}
+      
     </div>
   );
 };
