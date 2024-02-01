@@ -6,6 +6,8 @@ import Emilie from "../assets/RHceo.jpg";
 import John from "../assets/RhCoFounder.jpg";
 
 
+
+
 const Leaders = 
   {
     name: "Michael Anderson",
