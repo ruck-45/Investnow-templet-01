@@ -7,7 +7,7 @@ import "./Contact.css";
 
 const ContactUs = () => {
   return (
-    <div className="bg-yellow-800 grid grid-cols-1 lg:grid-cols-2 py-[6rem] px-[2rem] items-center">
+    <div className="bg-yellow-700 grid grid-cols-1 lg:grid-cols-2 py-[6rem] px-[2rem] items-center">
       <div className="flex flex-col items-center">
         <h1 className="py-[1rem] font-['rubik_doodle_shadow']  text-white font-bold text-5xl md:text-7xl">
           Contact Us
