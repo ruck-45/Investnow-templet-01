@@ -48,50 +48,55 @@
     ]
   },
   {
-    "question": "Q. What kind of investment products does InvestNow Investment offer?",
+    "question": "Q. What is risk in the context of investments?",
     "answer": [
       {
         "data": {
-          "main": "InvestNow Investment provides a diverse range of investment products to assist you in building a well-rounded portfolio and achieving your goals.",
-          "points": []
+          "main": "In the context of investments, risk refers to the uncertainty or potential for financial loss.",
+          "points": [
+            "It encompasses the possibility that an investment may not perform as expected, leading to a negative impact on the investor's capital.",
+          "Various factors contribute to investment risk, including market fluctuations, economic conditions, and specific characteristics of the investment itself."]
+
         },
         "bullet": false
       }
     ]
   },
   {
-    "question": "Q. How easy is it to switch brokerage providers?",
+    "question": "Q. How can investors manage risk in their investment portfolios?",
     "answer": [
       {
         "data": {
-          "main": "Transferring your existing account to a new brokerage firm may seem complex, but InvestNow Investment simplifies the process:",
+          "main": "Investors can manage risk in their portfolios through diversification like:",
           "points": [
-            "Open an InvestNow Investment account.",
-            "Utilize our online account transfer tool to initiate and monitor the process.",
-            "View and access your assets in your InvestNow Investment account."
+            "involves spreading investments across different asset classes to reduce the impact of poor performance in any single investment.",
+            "Setting realistic financial goals, conducting thorough research, and staying informed about market trends are also essential.",
+            "Additionally, employing risk management tools such as stop-loss orders and maintaining a balanced asset allocation can help mitigate potential losses."
           ]
         },
         "bullet": true
       },
       {
         "data": {
-          "main": "Need assistance? Our account transfer specialists are available to guide you at +1 (888) 891-6039.",
-          "points": []
+          "main": "What is the relationship between risk and return in investments?",
+          "points": [
+            ""
+          ]
         },
         "bullet": false
       }
     ]
   },
   {
-    "question": "Q. Why should I bank with InvestNow Investment Bank?",
+    "question": "Q. What is the relationship between risk and return in investments?",
     "answer": [
       {
         "data": {
-          "main": "Here's why we believe you should choose InvestNow Investment Bank:",
+          "main": "The relationship between risk and return in investments is often described by the principle of risk-return tradeoff",
           "points": [
-            "Receive unlimited ATM fee rebates4 with no foreign transaction fees5 and no account minimums. Bank anytime, anywhere with InvestNow Investment Mobile6. The InvestNow Investment Bank High Yield Investor Checking®7 account is linked to a InvestNow Investment One® brokerage account, allowing you to manage both accounts with a single login.",
+            "Generally, investments with higher potential returns tend to come with higher levels of risk. Investors must assess their risk tolerance and financial goals to find a suitable balance",
 
-            "Enjoy no monthly account service fees, earn interest on your balance, and benefit from FDIC insurance8 up to $250,000. Upon funding your account with at least $100, receive free standard checks, activate InvestNow Investment Bank Bill Pay™, and receive a Visa® Platinum Debit Card upon account opening."
+            " While riskier investments may offer the potential for greater returns, they also pose a higher chance of losses. Diversification and thorough analysis play crucial roles in optimizing the risk-return profile of an investment portfolio"
           ]
         },
         "bullet": true

@@ -7,7 +7,7 @@ import "./Contact.css";
 
 const ContactUs = () => {
   return (
-    <div className="contactBg grid grid-cols-1 lg:grid-cols-2 py-[6rem] px-[2rem] items-center">
+    <div className="bg-yellow-800 grid grid-cols-1 lg:grid-cols-2 py-[6rem] px-[2rem] items-center">
       <div className="flex flex-col items-center">
         <h1 className="py-[1rem] font-['rubik_doodle_shadow']  text-white font-bold text-5xl md:text-7xl">
           Contact Us
@@ -17,7 +17,7 @@ const ContactUs = () => {
           <Input type="text" label="Full Name" name="user_name" radius="none" />
           <Input type="text" label="Company Name" name="user_company_name" radius="none" />
           <Input type="tel" label="Phone Number" name="user_number" radius="none" />
-          <Button size="lg" className="" variant="bordered" color="success" radius="none">
+          <Button size="lg" className=" text-white border-2  rounded-none" variant="bordered"  >
             <span>Send Message</span>
           </Button>
         </form>

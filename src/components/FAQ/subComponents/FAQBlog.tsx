@@ -15,9 +15,9 @@ const FAQBlog = () => {
         </p>
       </div>
       <Button
-        variant="shadow"
+        
         color="warning"
-        radius="full"
+        radius="none"
         endContent={<FaArrowCircleRight className="mt-[0.1rem]" />}
       >
         Subscribe Now

@@ -9,7 +9,7 @@ import QuestionAccordion from "./QuestionAccordion";
 
 const FrequentQuestion = () => {
   return (
-    <div className="flex flex-col md:flex-row bg-gray-200 px-[1rem] md:px-[2rem] lg:px-[3rem] py-[5rem] gap-[2rem] md:gap-[0rem] rounded-none">
+    <div className="flex flex-col md:flex-row bg-yellow-200 px-[1rem] md:px-[2rem] lg:px-[3rem] py-[5rem] gap-[2rem] md:gap-[0rem] rounded-none">
       <div className="md:w-[50%] flex flex-col gap-[1rem] px-[1rem]">
         <h1 className="font-[Roboto] text-[2rem]">Frequently Asked Questions</h1>
         <p>
@@ -37,7 +37,7 @@ const FrequentQuestion = () => {
         </Link>
       </div>
 
-      <div className="md:w-[50%] md:ps-[2rem]">
+      <div className="md:w-[50%] md:ps-[2rem] rounded-none">
         <QuestionAccordion className="dark rounded-none" questions={questions} varient="splitted" />
       </div>
     </div>

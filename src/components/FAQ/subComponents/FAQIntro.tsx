@@ -2,20 +2,19 @@ import faqImg from "../assets/RHfaq.jpg";
 
 const FAQIntro = () => {
   return (
-    <div
-      className="h-[40rem] bg-no-repeat bg-center bg-cover flex flex-col justify-center items-center"
-      style={{
-        backgroundImage: `linear-gradient(rgba(0,0,0,0.3) 20%, rgba(0,0,0,0.2)), url(${faqImg})`,
-      }}
-    >
-      <div className="flex flex-col justify-center items-center w-[100%] px-[3rem] py-[2rem] bg-[rgba(0,0,0,0.5)] mt-[3rem] text-center text-[3rem] lg:text-[3.5rem]">
-        <span className="font-['Roboto'] font-bold leading-[4rem] text-[white]">
-          Your <span className="text-[#F5A524]">Questions.</span>
-        </span>
-
-        <span className="font-['Roboto'] font-bold leading-[4rem] text-[#F5A524]">
-          Our <span className="text-[white]">Answers.</span>
-        </span>
+    <div className="max-w-[1640px] mx-auto p-4">
+      <div className="max-h-[500px] relative">
+        {/* Overlay */}
+        <div className="h-[200px] bg-green-800">
+          <div className="absolute w-full h-full text-gray-200 max-h-[500px]  bg-black/40 flex flex-col items-center justify-center">
+            <h1 className="px-4  text-2xl sm:text-2xl md:text-3xl lg:text-5xl font-bold ">
+              FA<span className="text-orange-500 ">Q</span>
+            </h1>
+            <h1 className="px-4 mt-4 text-center text-1xl sm:text-1xl md:text-2xl lg:text-2xl font-serif">
+              We <span className="text-orange-500">encourage</span> your questions.
+            </h1>
+          </div>
+        </div>
       </div>
     </div>
   );

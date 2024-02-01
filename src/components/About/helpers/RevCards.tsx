@@ -17,7 +17,7 @@ const RevCards = (props: cardsProps) => {
             </h1>
           </div>
           <div className="lg:px-[0.3rem] sm:px-[2rem] px-[15rem]">
-            <p className="text-[0.8rem] sm:text-[1.3rem] md:text-[1rem] font-serif md:px-[0.5rem] px-[12rem] text-center md:font-semibold text-gray-500">
+            <p className="text-[0.8rem] sm:text-[1.3rem] md:text-[1rem] font-serif md:px-[0.5rem] px-[12rem] text-center  text-gray-500">
               {props.des}
             </p>
           </div>
