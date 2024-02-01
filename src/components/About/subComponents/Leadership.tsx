@@ -16,7 +16,7 @@ const Leaders =
     thumbnail: John,
   }
 ;
-
+//
 const Leadership = () => {
   return (
     <div className="flex flex-col justify-center items-center bg-[#e9ecef] h-auto     ">
