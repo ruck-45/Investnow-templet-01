@@ -5,7 +5,7 @@ import { Avatar } from "@nextui-org/react";
 import Emilie from "../assets/RHceo.jpg";
 import John from "../assets/RhCoFounder.jpg";
 
-const Leaders = 
+
 const Leaders = 
   {
     name: "Michael Anderson",
@@ -13,7 +13,7 @@ const Leaders =
     bio: "Michael Anderson, co-founder and MD of InvestNow, is a visionary leader with a rich background in financial innovation. With over a decade of experience in investment strategy, he has led transformative initiatives for investors worldwide. Michael's strategic foresight and dedication to financial excellence define InvestNow. His achievements include steering the company to industry recognition and a 25% growth in client portfolios within the first year.",
     thumbnail: John,
   }
-;
+
 
 const Leadership = () => {
   return (
