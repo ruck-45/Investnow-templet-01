@@ -33,6 +33,9 @@ const progressData4 = {
   pic: "https://img.freepik.com/free-vector/financial-benefit-businessman-cartoon-character-with-big-briefcase-earning-money-getting-revenue-profit-income-earnings-capital-gain-process-vector-isolated-concept-metaphor-illustration_335657-2797.jpg?size=626&ext=jpg",
 };
 
+//
+
+
 const Specialization = () => {
   return (
     <div className="h-auto flex flex-col items-center justify-between mt-[4rem] gap-4 sm:p-[7rem] lg:p-[3rem]">

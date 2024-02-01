@@ -10,6 +10,7 @@ import Intro from "../../globalSubComponents/Intro";
 import contactImg from "./assets/RHcontactus.jpg"
 import ContactUs from "./subComponents/ContactUs";
 import HeroContact from "./subComponents/HeroContact";
+
 const Contact = () => {
   const dispatch = useDispatch();
   dispatch(updateTab("Contact"));
@@ -18,7 +19,7 @@ const Contact = () => {
     top: 0,
     behavior: "smooth",
   });
-
+//
   return (
     <div>
       <HeroContact/>

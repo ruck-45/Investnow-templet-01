@@ -6,7 +6,7 @@ type cardsProps = {
   title: string;
   des: string;
 };
-
+//
 export const Verticalprops = (props: cardsProps) => {
   return (
     <div className="bg-green-800 shadow-2xl  w-[22rem] h-[23rem] hover:scale-110 transition duration-150 ease-in-out">

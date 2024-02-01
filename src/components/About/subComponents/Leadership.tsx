@@ -1,7 +1,7 @@
 // Dependencies
 import { Avatar } from "@nextui-org/react";
 
-// Local Files
+// Local Files//
 import Emilie from "../assets/RHceo.jpg";
 import John from "../assets/RhCoFounder.jpg";
 

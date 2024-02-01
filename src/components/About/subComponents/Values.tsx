@@ -1,5 +1,6 @@
 import { Card, CardHeader, CardBody, CardFooter, Divider, Link, Image } from "@nextui-org/react";
 import safety from "../assets/safety.png"
+//
 const Values = () => {
   return (
     <div className="flex flex-col items-center p-[3rem]">
