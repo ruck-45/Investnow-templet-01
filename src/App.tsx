@@ -17,6 +17,7 @@ import Footer from "./globalSubComponents/Footer";
 import { RootState } from "./store/store";
 import Privacy from "./components/Privacy/Privacy";
 
+
 function App() {
   const curTab = useSelector((state: RootState) => state.curTab.value);
 

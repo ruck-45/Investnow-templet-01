@@ -1,7 +1,7 @@
 // Dependencies
 import { Image, Divider } from "@nextui-org/react";
 import who from "../assets/RHwhoweare.jpg";
-
+//
 const AboutUs = () => {
   return (
     <div className=" flex flex-col">
