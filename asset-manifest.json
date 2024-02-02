@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.a21100b0.css",
-    "main.js": "/static/js/main.9b85bd88.js",
+    "main.css": "/static/css/main.1f67a34a.css",
+    "main.js": "/static/js/main.00c5be49.js",
     "static/media/RHoption.jpg": "/static/media/RHoption.45822858e195594bd29e.jpg",
     "static/media/RHcrypto.jpg": "/static/media/RHcrypto.fe8370c8c9f6b7adce0a.jpg",
-    "static/media/greenBg.jpg": "/static/media/greenBg.793247e27d1016b90d6f.jpg",
+    "static/media/mmm.jpg": "/static/media/mmm.16c732f1fdb66816642d.jpg",
+    "static/media/woman-working-her-laptop-while-talking-phone.jpg": "/static/media/woman-working-her-laptop-while-talking-phone.946c1ab1e988582e67db.jpg",
+    "static/media/hhjj.jpg": "/static/media/hhjj.e864c095434cc67756d1.jpg",
     "static/media/RHinvestement.jpg": "/static/media/RHinvestement.d9322d35b1bf43ccf5c4.jpg",
     "static/media/RhCoFounder.jpg": "/static/media/RhCoFounder.b7aa0dc9cc00abcce351.jpg",
     "static/media/RHretirement.jpg": "/static/media/RHretirement.ed769bc0d78b523f936a.jpg",
@@ -15,11 +17,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.a21100b0.css.map": "/static/css/main.a21100b0.css.map",
-    "main.9b85bd88.js.map": "/static/js/main.9b85bd88.js.map"
+    "main.1f67a34a.css.map": "/static/css/main.1f67a34a.css.map",
+    "main.00c5be49.js.map": "/static/js/main.00c5be49.js.map"
   },
   "entrypoints": [
-    "static/css/main.a21100b0.css",
-    "static/js/main.9b85bd88.js"
+    "static/css/main.1f67a34a.css",
+    "static/js/main.00c5be49.js"
   ]
 }
