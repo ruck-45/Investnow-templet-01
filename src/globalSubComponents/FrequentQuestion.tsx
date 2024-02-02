@@ -6,13 +6,14 @@ import { Link } from "react-router-dom";
 // Local Files
 import questions from "../components/Contact/assets/frequetQuestions.json";
 import QuestionAccordion from "./QuestionAccordion";
+import  './Frequent.css'
 
 const FrequentQuestion = () => {
   return (
-    <div className="flex flex-col md:flex-row bg-yellow-200 px-[1rem] md:px-[2rem] lg:px-[3rem] py-[5rem] gap-[2rem] md:gap-[0rem] rounded-none">
-      <div className="md:w-[50%] flex flex-col gap-[1rem] px-[1rem]">
-        <h1 className="font-[Roboto] text-[2rem]">Frequently Asked Questions</h1>
-        <p>
+    <div className="flex flex-col md:flex-row Bg px-[1rem] md:px-[2rem] lg:px-[3rem] py-[5rem] gap-[2rem] md:gap-[0rem] rounded-none">
+      <div className="md:w-[50%] flex flex-col gap-[1rem] px-[1rem] ">
+        <h1 className="font-[Roboto] font-bold  text-[2.2rem]">Frequently Asked Questions</h1>
+        <p className="">
           Discover quick answers to common queries about our services in our FAQ section. For specific questions or
           further assistance, our dedicated support team is ready to help. We're committed to ensuring you have the
           information you need for a seamless experience with us.

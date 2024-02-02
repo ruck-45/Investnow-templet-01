@@ -36,7 +36,7 @@ const Leadership = () => {
       <div className="md:p-[1rem] p-[2rem]">
         <h2 className="text-2xl text-center md:text-3xl font-semibold text-gray-500">{Leaders.name}</h2>
         <h3 className=" text-center text-1xl font-semibold text-gray-500">{Leaders.designation}</h3>
-        <div className="lg:px-[12rem] md:px-[8rem] lg:py-[3rem] p-[2rem]">
+        <div className="lg:px-[19rem] md:px-[8rem] lg:py-[3rem] p-[2rem] justify-center items-center">
           <p className="font-serif text-center text-1xl text-gray-500">{Leaders.bio}</p>
         </div>
       </div>
