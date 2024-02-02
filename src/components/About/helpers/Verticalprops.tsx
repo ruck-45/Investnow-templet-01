@@ -9,7 +9,7 @@ type cardsProps = {
 //
 export const Verticalprops = (props: cardsProps) => {
   return (
-    <div className="bg-green-800 shadow-2xl  w-[22rem] h-[23rem] hover:scale-110 transition duration-150 ease-in-out">
+    <div className="bg-green-800 shadow-2xl  w-[22rem] h-[23rem] hover:scale-105 transition duration-150 ease-in-out">
       <div className="flex flex-col items-center justify-center ">
         <div className="text-center text-white text-6xl p-[3.5rem]">{<props.photo />}</div>
         <div className=" text-2xl font-medium text-center">

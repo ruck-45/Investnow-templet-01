@@ -11,18 +11,19 @@ type QuestionAccordionProps = {
 };
 
 const QuestionAccordion = (props: QuestionAccordionProps) => {
-  const className = "font-['Roboto'] " + props.className;
+  const className = "font-['Roboto']  " + props.className;
 
   return (
-    <Accordion className={className} isCompact variant={props.varient}>
+    <Accordion  className={className} isCompact variant={props.varient}>
       {props.questions.map((queries, index) => (
         <AccordionItem
+          classNames ={{content:"rounded-none"}}
           key={index}
           aria-label={`Question ${index + 1}`}
           title={queries.question}
-          className="py-[1rem] text-default-500 text-sm rounded-none"
+          className="py-[1rem] text-default-500 text-sm "
         >
-          <div className="flex flex-col gap-[2rem] rounded-none">
+          <div className="flex flex-col gap-[2rem] ">
             {queries.answer.map((ans, index) => {
               if (ans.bullet) {
                 return (

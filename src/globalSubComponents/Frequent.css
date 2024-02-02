@@ -1,0 +1,7 @@
+.Bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0)),
+    url("../components/Contact/assets/hhjj.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

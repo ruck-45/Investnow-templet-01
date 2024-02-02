@@ -1,6 +1,7 @@
 .contactBg {
   min-height: 40rem;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3) 20%, rgba(0, 0, 0, 0.2)), url("../assets/greenBg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0.5)),
+    url("../assets/woman-working-her-laptop-while-talking-phone.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
